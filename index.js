@@ -128,3 +128,6 @@ app.put('/bookings/:email/:movie/:showtime', (req, res) => {
 // Export the app for testing
 module.exports = app;
 
+
+//// Include Test file here to run test(test.js)
+
