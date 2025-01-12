@@ -1,10 +1,11 @@
 {
   "name": "assignment1",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple movie ticket booking system",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "start": "node index.js", 
+    "test": "jest --detectOpenHandles" 
   },
   "keywords": [],
   "author": "",
@@ -12,5 +13,9 @@
   "dependencies": {
     "body-parser": "^1.20.3",
     "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
   }
 }
